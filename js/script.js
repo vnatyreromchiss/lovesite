@@ -94,7 +94,7 @@ modalCloses.forEach((modalClose) => {
 
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-const swiper = new Swiper('.portfolio__container', {
+const swiperPortfolio = new Swiper('.portfolio__container', {
     cssMode: true,
     loop:true,
 
@@ -203,3 +203,25 @@ window.addEventListener('scroll', scrollUp)
      localStorage.setItem('selected-theme', getCurrentTheme())
      localStorage.setItem('selected-icon', getCurrentIcon())
  })
+
+
+ var swiper = new Swiper(".swiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 2,
+    speed: 600,
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 100,
+      modifier: 3,
+      slideShadows: true,
+    },
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: false,
+    },
+  });
+
