@@ -1385,6 +1385,22 @@ img {
     background: 
       url("../img/ourFluffyFriends/07.jpeg") no-repeat 35% 65% / cover;
   }
+  .swiper-slide--eight {
+    background: 
+    url("../img/ourFluffyFriends/08.jpeg") no-repeat 40% 60% / cover;
+  }
+  .swiper-slide--nine {
+    background: 
+    url("../img/ourFluffyFriends/09.jpeg") no-repeat 40% 60% / cover;
+  }
+  .swiper-slide--ten {
+    background: 
+    url("../img/ourFluffyFriends/10.jpeg") no-repeat 40% 60% / cover;
+  }
+  .swiper-slide--eleven {
+    background: 
+    url("../img/ourFluffyFriends/11.jpeg") no-repeat 40% 60% / cover;
+  }
   
   .swiper-3d .swiper-slide-shadow-left,
   .swiper-3d .swiper-slide-shadow-right {
@@ -1424,4 +1440,27 @@ img {
 }
   
 
-
+.swiper-slide__one {
+    background: 
+      url("../img/newSwiper/img1.jpeg") no-repeat 50% 50% / cover;
+  }
+  
+  .swiper-slide__two {
+    background:
+      url("../img/newSwiper/img2.jpeg") no-repeat 50% 50% / cover;
+  }
+  
+  .swiper-slide__three {
+    background:
+      url("../img/newSwiper/img3.jpeg") no-repeat 30% 70% / cover;
+  }
+  
+  .swiper-slide__four {
+    background:
+      url("../img/newSwiper/img4.jpeg") no-repeat 44% 56% / cover;
+  }
+  
+  .swiper-slide__five {
+    background: 
+      url("../img/newSwiper/img5.jpeg") no-repeat 40% 60% / cover;
+  }
